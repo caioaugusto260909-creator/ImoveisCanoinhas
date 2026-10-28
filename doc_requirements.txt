@@ -1,0 +1,652 @@
+﻿Avaliação do Indicador 2 - Projeto Web
+UC5 - Front-
+end
+ de Projetos Web | SA2 - Do Protótipo ao Código | Jovem Programador 2026
+Indicador
+Indicadores da SA2:
+2. Codifica o front-
+end
+ de projetos web, utilizando tecnologias 
+client-side
+ respeitando o design responsivo e a acessibilidade.
+3. Utiliza frameworks e bibliotecas de front-
+end
+ com foco na produtividade e na padronização de projetos web.
+1.  ORIENTAÇÕES AO ALUNO
+Item
+Combinado
+O que entregar
+Um site
+ responsivo, com experiência de uso (UX) e acessibilidade, com no mínimo 4 páginas.
+Requisitos mínimos
+4 páginas ou mais com menu igual em todas; mobile 
+first
+; pelo menos 2 componentes em 
+JavaScript
+; formulário acessível; imagens com 
+alt
+; foco visível; navegação completa pelo teclado.
+Onde entregar
+No Teams, na aba Tarefas, na tarefa deste projeto.
+O que anexar
+(1) O link do site publicado, no GitHub Pages ou na 
+Vercel
+. (2) O link do repositório com o código.
+Prazo
+21/10/2026, até as 22h.
+Apresentação
+28/10/2026, para a turma. Veja o roteiro na seção 5.
+Conceitos
+Atendido, Atendido Parcial ou Não Atendido, em cada critério e no indicador.
+Orientação: o professor avalia o site publicado, o código no repositório e a apresentação. Quem não publicar o site não consegue o conceito Atendido, pois a publicação é critério essencial.
+2.  CRITÉRIOS E CONCEITOS
+Cada critério recebe um conceito. Os critérios marcados com ● são essenciais: ficam decisivos para o conceito final do indicador.
+Critério
+Atendido
+Atendido Parcial
+Não Atendido
+1. Estrutura e HTML semântico ●
+4 páginas ou mais, com menu igual em todas e links funcionando. Uso de header, 
+nav
+, 
+main
+ e 
+footer
+. Um h1 por página e títulos em ordem. Sem erros graves no validador W3C.
+4 páginas, mas com semântica falha (muitas 
+divs
+), títulos fora de ordem ou erros no validador W3C.
+Menos de 4 páginas, links quebrados ou sem estrutura semântica.
+2. Responsividade ●
+Mobile 
+first
+. Funciona bem em celular (cerca de 390px), tablet e desktop. Sem rolagem horizontal. Menu e imagens se adaptam.
+Funciona em duas larguras, ou quebra em algum ponto (imagem estoura, texto sobreposto, menu ruim no celular).
+O layout não se adapta ao celular.
+3. Acessibilidade ●
+Navega todo o site só com o teclado, foco visível, 
+skip
+ link, contraste AA, 
+alt
+ adequado, 
+labels
+ nos campos, ARIA correto. WAVE sem erros e sem erros de contraste. 
+Lighthouse
+ Acessibilidade 90 ou mais.
+Atende parte: por exemplo, teclado funciona, mas há erros de contraste, 
+alt
+ ou 
+label
+. 
+Lighthouse
+ Acessibilidade entre 70 e 89.
+Sem foco visível, imagens sem 
+alt
+, formulário sem 
+label
+, ou 
+Lighthouse
+ Acessibilidade abaixo de 70.
+4. 
+JavaScript
+ interativo ●
+Pelo menos 2 componentes funcionando (menu mobile, 
+forms
+, 
+FAQ, 
+acordeão, abas, modal, filtro, tema claro e escuro, validação). Todos acessíveis por teclado e com ARIA atualizado.
+1 componente funcionando, ou 2 com falhas (não funcionam no teclado, ARIA desatualizado).
+Nenhum componente funcional ou 
+JavaScript
+ com erros que quebram a página.
+5. UX e identidade visual
+Paleta, tipografia e espaçamentos consistentes em todas as páginas. Hierarquia visual clara, botões e links reconhecíveis, feedback ao usuário (mensagens, estados).
+Consistência parcial: páginas com estilos diferentes, hierarquia confusa ou pouco feedback.
+Sem padrão visual, texto difícil de ler, navegação confusa.
+6. Desempenho e boas práticas
+Imagens otimizadas (
+WebP
+ ou tamanho adequado), 
+width
+ e 
+height
+ definidos, 
+loading
+ 
+lazy
+ fora da primeira tela, CSS e JS organizados em arquivos. 
+Lighthouse
+ Desempenho 80 ou mais.
+Otimização parcial: algumas imagens pesadas ou código desorganizado. 
+Lighthouse
+ Desempenho entre 60 e 79.
+Imagens pesadas, código misturado e sem organização, 
+Lighthouse
+ Desempenho abaixo de 60.
+7. Publicação e entrega ●
+Link enviado em Tarefas no Teams até 21/10 às 22h. Site no ar e abrindo em qualquer computador. Repositório organizado, com README, e link do repositório informado.
+Site no ar com falhas (imagem ou página com caminho errado), sem README ou entrega com atraso de até 24 horas.
+Sem link, site fora do ar ou entrega depois de mais de 24 horas.
+8. Apresentação e testes ao vivo ●
+Mostra a estrutura e as funcionalidades, compartilha o link com a turma, roda WAVE, 
+axe
+ e 
+Lighthouse
+ ao vivo, explica os resultados e o que corrigiu. Faz o teste do teclado.
+Apresenta o site, mas não roda os testes ao vivo ou não explica os resultados.
+Não apresenta na data combinada.
+3.  REGRA DO CONCEITO FINAL
+Conceito do indicador
+Quando
+Atendido
+Todos os 6 critérios essenciais (●) 
+com Atendido
+, e no máximo 1 critério não essencial (5 ou 6) com Atendido Parcial.
+Atendido Parcial
+Nenhum critério essencial com Não Atendido, e pelo menos 5 dos 6 essenciais com Atendido ou Atendido Parcial.
+Não Atendido
+Qualquer critério essencial com Não Atendido.
+Exemplos: (1) todos os essenciais A e um não essencial AP resulta em Atendido. (2) Acessibilidade em AP e o resto A resulta em Atendido Parcial. (3) Site não publicado (critério 7 NA) resulta em Não Atendido, mesmo com um código muito bom.
+4.  CHECKLIST DE AUTOAVALIAÇÃO DO ALUNO
+Marque cada item antes de entregar. Se não conseguir marcar, volte ao projeto e corrija.
+  Estrutura
+☐
+  O
+ site tem 4 páginas ou mais e o mesmo menu em todas.
+☐
+  Cada
+ página tem um único h1 e os títulos seguem a ordem (h1, h2, h3).
+☐
+  Uso
+ header, 
+nav
+, 
+main
+ e 
+footer
+ em todas as páginas.
+☐
+  Cada
+ página tem um 
+title
+ diferente e o 
+lang
+="
+pt
+-BR" no 
+html
+.
+☐
+  Rodei
+ o validador W3C e corrigi os erros.
+  Responsividade
+☐
+  Testei
+ no modo celular do F12 (390px), tablet (768px) e desktop.
+☐
+  Não
+ aparece barra de rolagem horizontal em nenhuma largura.
+☐
+  As
+ imagens têm 
+max-width
+: 100% e 
+height
+: auto.
+☐
+  O
+ menu vira botão no celular e funciona.
+☐
+  Abri
+ o site publicado em um celular de verdade.
+  Acessibilidade
+☐
+  Naveguei
+ o site inteiro só com 
+Tab
+, 
+Shift+Tab
+, 
+Enter
+ e Esc.
+☐
+  O
+ foco aparece em todos os links, botões e campos (:
+focus-visible
+).
+☐
+  Tenho
+ o 
+skip
+ link como primeiro item do Tab.
+☐
+  Todas
+ as imagens têm 
+alt
+ (ou 
+alt
+ vazio se decorativas).
+☐
+  Todos
+ os campos têm 
+label
+ ligado por for e id.
+☐
+  As
+ mensagens de erro do formulário aparecem em texto e o foco vai ao primeiro erro.
+☐
+  Conferi
+ o contraste das cores (texto 4,5:1 e botões 3:1).
+☐
+  WAVE
+: zero 
+Errors
+ e zero 
+Contrast
+ 
+Errors
+.
+☐
+  
+Lighthouse
+ Acessibilidade: 90 ou mais.
+  
+JavaScript
+ interativo
+☐
+  Tenho
+ pelo menos 2 componentes funcionando.
+☐
+  Os
+ componentes funcionam com o teclado (
+Enter
+, Espaço, 
+Esc
+, setas).
+☐
+  O
+ aria-
+expanded
+, aria-
+pressed
+ ou aria-
+selected
+ muda junto com o visual.
+☐
+  Não
+ há erro vermelho no Console (F12).
+  UX e desempenho
+☐
+  As
+ páginas seguem a mesma paleta, tipografia e espaçamentos.
+☐
+  Os
+ botões e links são fáceis de reconhecer e de tocar no celular.
+☐
+  As
+ imagens estão otimizadas (
+WebP
+) e têm 
+width
+, 
+height
+ e alt.
+☐
+  
+Lighthouse
+ Desempenho: 80 ou mais.
+  Publicação e entrega
+☐
+  O
+ site está publicado (GitHub Pages ou 
+Vercel
+) e abre na janela anônima.
+☐
+  Todas
+ as páginas, imagens e links funcionam no site publicado.
+☐
+  O
+ repositório tem README com nome do projeto, autor e link do site.
+☐
+  Entreguei
+ em Tarefas no Teams, com os dois links, antes de 21/10 às 22h.
+  Apresentação (28/10)
+☐
+  Treinei
+ a fala: estrutura, funcionalidades e testes, em até 10 minutos.
+☐
+  Instalei
+ WAVE e 
+axe
+ no computador que vou usar, e testei antes.
+☐
+  Tenho
+ o link do site pronto para colar no chat e compartilhar com a turma.
+☐
+  Sei
+ explicar o que corrigi e o que ainda ficou pendente.
+5.  ROTEIRO DA APRESENTAÇÃO (28/10)
+Tempo total: de 7 a 10 minutos por aluno. O computador usado na apresentação precisa ter as extensões WAVE e 
+axe
+ 
+DevTools
+ instaladas.
+Tempo
+Etapa
+O que mostrar
+1 min
+Apresentação do site
+Tema, público e objetivo do site.
+2 min
+Estrutura
+As 4 páginas, o menu, as pastas e os arquivos no VS 
+Code
+ ou 
+publicado do GIT.
+2 min
+Funcionalidades
+Os componentes em 
+JavaScript
+ funcionando (menu mobile, acordeão, filtro, modal etc.) e o formulário com validação.
+1 min
+Link para a turma
+Colar o link no chat do Teams para os colegas abrirem no celular ou no computador.
+3 min
+Testes ao vivo
+Rodar o WAVE (erros e contraste), o 
+axe
+ e o 
+Lighthouse
+ (Acessibilidade e Desempenho). Ler os números em voz alta. Navegar um trecho só com o teclado.
+1 min
+Balanço
+O que corrigiu a partir dos testes e o que ainda melhoraria.
+Dica: ensaie uma vez antes. Se o teste ao vivo mostrar um erro, não é problema: explique o erro e como corrigiria. O que a avaliação observa é se o aluno entende os resultados.
+6.  FICHA DE AVALIAÇÃO DO PROFESSOR (UMA POR ALUNO)
+Aluno(s)
+Data
+Link do site
+Repositório
+A. Testes ao vivo (anotar durante a apresentação)
+Teste
+Meta
+Resultado
+Atingiu? (S/N)
+Lighthouse
+ Acessibilidade (celular)
+90 ou mais
+Lighthouse
+ Desempenho (celular)
+80 ou mais
+WAVE: 
+Errors
+0
+WAVE: 
+Contrast
+ 
+Errors
+0
+axe
+: problemas 
+Critical
+ e 
+Serious
+0
+Navegação só pelo teclado
+Completa
+Abre no celular de um colega
+Sim
+B. Conceito por critério (marcar um). ● = essencial; A = Atendido, AP = Atendido Parcial, NA = Não Atendido
+Critério
+A
+AP
+NA
+Observação
+1. Estrutura e HTML semântico ●
+☐
+☐
+☐
+2. Responsividade ●
+☐
+☐
+☐
+3. Acessibilidade ●
+☐
+☐
+☐
+4. 
+JavaScript
+ interativo ●
+☐
+☐
+☐
+5. UX e identidade visual
+☐
+☐
+☐
+6. Desempenho e boas práticas
+☐
+☐
+☐
+7. Publicação e entrega ●
+☐
+☐
+☐
+8. Apresentação e testes ao vivo ●
+☐
+☐
+☐
+C. Conceito final do Indicador 2
+☐
+  Atendido
+☐
+  Atendido
+ Parcial
+☐
+  Não
+ Atendido
+D. Devolutiva ao aluno (pontos fortes e o que melhorar)
+A.  ANEXO: PUBLICAR NO GITHUB PAGES
+O GitHub Pages hospeda sites estáticos (HTML, CSS e 
+JavaScript
+) de graça. O endereço fica no formato https://usuario.github.io/nome-do-repositorio/.
+Preparação do projeto
+• O arquivo da página inicial precisa se chamar index.html e ficar na raiz da pasta (não dentro de outra pasta).
+• Use apenas caminhos relativos: 
+src
+="
+img
+/
+logo.webp
+" e 
+href
+="estilo.css". Nunca C:\Users\... nem /home/....
+• O GitHub diferencia maiúsculas de minúsculas: Foto.JPG e foto.jpg são arquivos diferentes. Padronize tudo em minúsculas, sem acentos e sem espaços nos nomes.
+Passo
+O que fazer
+1
+Entrar em github.com e criar uma conta (ou entrar na existente). Clicar em New 
+repository
+.
+2
+Dar um nome sem espaços (por exemplo recicla-me), deixar como 
+Public
+ e marcar 
+Add
+ a README file. Clicar em 
+Create
+ 
+repository
+.
+3
+Na página do repositório, clicar em 
+Add
+ file, depois Upload files. Arrastar TODOS os arquivos e pastas do projeto (index.html, as outras páginas, estilo.css, script.js, pasta 
+img
+). Clicar em 
+Commit
+ 
+changes
+.
+4
+Abrir Settings (do repositório), depois Pages no menu da esquerda.
+5
+Em Build 
+and
+ 
+deployment
+, escolher 
+Source
+: 
+Deploy
+ 
+from
+ a 
+branch
+. Em Branch, escolher 
+main
+ e a pasta /(root). Clicar em 
+Save
+.
+6
+Esperar de 1 a 3 minutos e atualizar a página Pages. Aparece o aviso 
+Your
+ site 
+is
+ live 
+at
+ com o endereço.
+7
+Abrir o endereço em uma janela anônima e testar todas as páginas, o menu e as imagens.
+Alternativa para quem já usa 
+Git
+ no VS 
+Code
+ (terminal)
+git
+ 
+init
+  /
+/ cria o repositório local na pasta do projeto
+git
+ 
+add
+ .
+  // prepara todos os arquivos
+git
+ 
+commit
+ -m "Primeira versão do site
+"
+  /
+/ registra a versão
+git
+ 
+branch
+ -M 
+main
+  /
+/ nomeia a ramificação principal
+git
+ 
+remote
+ 
+add
+ 
+origin
+ 
+https://github.com/USUARIO/recicla-me.git
+  /
+/ troque USUARIO e o nome do repositório
+git
+ 
+push
+ -u 
+origin
+ 
+main
+  /
+/ envia para o GitHub
+Depois do 
+push
+, seguir os passos 4 a 7 da tabela. Para atualizar o site, repetir 
+git
+ 
+add
+, 
+git
+ 
+commit
+ e 
+git
+ 
+push
+, e aguardar 1 a 2 minutos.
+B.  ANEXO: PUBLICAR NA VERCEL
+A 
+Vercel
+ também hospeda de graça (plano Hobby) e atualiza o site sozinha a cada envio para o GitHub. O endereço fica no formato nome-do-
+projeto.vercel.app
+. Requer o projeto já em um repositório do GitHub (passos 1 a 3 do Anexo A).
+Passo
+O que fazer
+1
+Entrar em vercel.com e escolher Continue 
+with
+ GitHub, autorizando o acesso.
+2
+Clicar em 
+Add
+ New, depois Project. Na lista, localizar o repositório do site e clicar em Import.
+3
+Em Framework 
+Preset
+, escolher Other (site estático). Deixar os demais campos como estão.
+4
+Clicar em 
+Deploy
+ e aguardar cerca de 1 minuto.
+5
+Clicar em Continue 
+to
+ Dashboard e depois em 
+Visit
+ (ou no 
+endereço .
+vercel.app
+).
+6
+Testar em janela anônima. Copiar o endereço para a tarefa do Teams.
+A tela da 
+Vercel
+ e do GitHub pode mudar de nome ou de lugar. Se um botão não estiver onde está escrito aqui, procure o nome parecido ou peça ajuda ao professor.
+C.  ANEXO: SE O SITE PUBLICADO NÃO FUNCIONA
+Sintoma
+Causa provável
+Solução
+Erro 404 ao abrir o endereço
+A página inicial não se chama index.html, ou está dentro de uma subpasta
+Renomear para index.html e colocar na raiz
+O site abre sem estilo (texto puro)
+Caminho do CSS errado ou nome com maiúscula diferente
+Conferir o 
+href
+ do link do CSS e o nome do arquivo, letra por letra
+As imagens não aparecem
+Caminho absoluto do computador, ou maiúsculas e minúsculas diferentes
+Usar caminho relativo (
+img
+/
+foto.webp
+) e nomes iguais ao arquivo
+Funciona no computador, mas não no site
+O Live Server perdoa erros que o servidor real não perdoa
+Abrir o Console (F12) no site publicado e ler os erros em vermelho
+Mudei o código, mas o site não mudou
+O arquivo novo não foi enviado, ou o navegador guardou a versão antiga
+Enviar de novo, aguardar 2 minutos e atualizar com Ctrl+F5
+A página de GitHub Pages não aparece em Settings
+Repositório privado
+Mudar o repositório para 
+Public
+ (Settings, Danger Zone)

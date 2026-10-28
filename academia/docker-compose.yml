@@ -1,0 +1,9 @@
+services:
+ 
+  laravel:
+    build: .
+    container_name: laravel_academia
+    ports:
+      - "8000:80"
+    volumes:
+      - ./:/var/www/html
